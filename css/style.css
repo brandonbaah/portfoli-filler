@@ -1,0 +1,36 @@
+.container{
+  width: 100%
+}
+
+.right-side{
+  width: 85%;
+  background-color: gray;
+  float: right;
+}
+
+.left-side{
+  width: 15%;
+  float: left;
+  background-color: yellow;
+}
+
+.box{
+  width: 75px;
+  height: 80px;
+}
+
+.light_blue{
+  background-color: #02b3e4;
+}
+
+.dark_blue{
+  background-color: #2d3c49;
+}
+
+.gray{
+  background-color: #7d97ad;
+}
+
+body{
+
+}
