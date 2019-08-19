@@ -3,53 +3,62 @@
 
   <head>
     <title>Brandon Baah</title>
-    <link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="css/style-mobile.css" rel="stylesheet" media="screen and (max-width: 550px)">
+    <link href="css/style-ipad.css" rel="stylesheet" media="screen and (min-width: 551px) and (max-width: 880px)">
+    <link href="css/style.css" rel="stylesheet" media="screen and (min-width: 881px)">
+    <!-- <link href="css/style-ipad.css" rel="stylesheet"> -->
   </head>
 
   <body>
     <section class="container">
-      <div class="left-side" id="main-left-section">
-        <div class="box light_blue"></div>
-        <div>#02b3e4</div>
-        <div class="box dark_blue"></div>
-        <div>#2d3c49</div>
-        <div class="box gray"></div>
-        <div>#7d97ad</div>
+      <div class="left-side mobile-row" id="main-left-section">
+        <div class="mobile-column">
+        <div  class="box light_blue mobile-column"></div>
+        <div class="image-descriptor">#02b3e4</div>
+        </div>
+        <div class="mobile-column">
+        <div class="box dark_blue mobile-column"></div>
+        <div class="image-descriptor">#2d3c49</div>
+        </div>
+        <div class="mobile-column">
+        <div class="box gray mobile-column"></div>
+        <div class="image-descriptor">#7d97ad</div>
+        </div>
       </div>
 
       <div class="right-side">
         <section class="container">
         <div class="left-side">
-          <img src="images/b-logo.png" class="column-image"alt="">
+          <img src="images/b-logo.jpg" class="mobile-image image">
         </div>
-        <div class="right-side">
-          <div class="container"><h1 class="right">Brandon Baah</h1></div><br>
-          <div class="container"><p class="right">Front-End Ninja</p></div>
-
+        <div class="right-side center">
+          <div class="container"><h1 id="dev-name" class="right title-text">Brandon Baah</h1></div><br>
+          <div class="container right"><p id="dev-title title-text" class="right">FRONT-END NINJA</p></div>
         </div>
         </section>
         <div><img src="images/meta-tags.jpg" alt="meta tags" class="headline-photo"></div>
         <div><h1>Featured Work</h1></div>
         <div class="row">
               <div class="column">
-                <img src="images/meta-tags.jpg" alt="" class="column-image">
+                <img src="images/reddi-finder.png" alt="" class="column-image">
                 <div class="image-descriptor">
-                  <h3>APPIFY</h3>
-                  <p>link</p>
+                  <h3>REDDI-FINDER</h3>
+                  <a href="https://github.com/brandonbaah/reddi-finder" target="_blank"><p>https://github.com/brandonbaah/reddi-finder</p></a>
                 </div>
               </div>
               <div class="column">
-                <img src="images/meta-tags.jpg" alt="" class="column-image">
+                <img src="images/numeric-fact-machine.png" alt="" class="column-image">
                 <div class="image-descriptor">
-                  <h3>APPIFY</h3>
-                  <p>link</p>
+                  <h3>NUMERIC FACT MACHINE</h3>
+                  <a href="https://github.com/brandonbaah/numeric-fact-machine" target="_blank"><p>https://github.com/brandonbaah/numeric-fact-machine</p></a>
                 </div>
               </div>
               <div class="column">
-                <img src="images/meta-tags.jpg" alt="" class="column-image">
+                <img src="images/location-finder.png" alt="" class="column-image">
                 <div class="image-descriptor">
-                  <h3>APPIFY</h3>
-                  <p>link</p>
+                  <h3>LOCATION FINDER</h3>
+                  <a href="https://github.com/brandonbaah/locator" target="_blank"><p>https://github.com/brandonbaah/locator</p></a>
                 </div>
               </div>
         </div>
